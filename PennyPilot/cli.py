@@ -1,7 +1,6 @@
-"""PennyPilot — interactive terminal interface for the shared finance service.
+"""PennyPilot — the shared finance service.
 
 GenAI acknowledgement: This file was created with assistance from OpenAI ChatGPT.
-The student must review, understand and acknowledge this use in their submission.
 """
 
 from __future__ import annotations
@@ -18,9 +17,7 @@ from pennypilot.models import (
 from pennypilot.service import FinanceService, SORT_OPTIONS
 from pennypilot.storage import DataFileError
 
-
 RULE = "─" * 85
-
 
 def ask(prompt: str, default: str = "") -> str:
     """Use enter for default; callers handle validation errors explicitly."""
@@ -28,18 +25,15 @@ def ask(prompt: str, default: str = "") -> str:
     value = input(f"{prompt}{suffix}: ").strip()
     return value if value else default
 
-
 def ask_month(default: str) -> str:
     month = ask("Month (YYYY-MM)", default)
     validate_month(month)
     return month
 
-
 def select_category(kind: str, current: str = "") -> str:
     options = categories_for(kind)
     print("Categories: " + "  |  ".join(options))
     return ask("Category", current if current in options else options[0])
-
 
 def dashboard(service: FinanceService) -> None:
     month = ask_month(service.preferred_month())
@@ -65,7 +59,6 @@ def dashboard(service: FinanceService) -> None:
                   f"{money_display(item['limit'])}  ({item['percent']:.0f}%) — {flag}")
     print(RULE)
 
-
 def prompt_filters(default_month: str | None = None) -> dict:
     print("\n  FILTERS  (enter for the default; '*' for all months)")
     raw_month = ask("Month YYYY-MM or *", default_month or "*")
@@ -77,7 +70,6 @@ def prompt_filters(default_month: str | None = None) -> dict:
     sort = ask("Sort", "newest").lower()
     return {"month": month, "kind": kind, "category": category,
             "search": search, "sort": sort}
-
 
 def print_transactions(service: FinanceService, filters: dict) -> None:
     transactions = service.list_transactions(**filters)
@@ -92,7 +84,6 @@ def print_transactions(service: FinanceService, filters: dict) -> None:
     if not transactions:
         print("  No results. Try adjusting the filters or add a transaction.")
     print(RULE)
-
 
 def add_transaction(service: FinanceService) -> None:
     print("\n  ADD TRANSACTION")
@@ -110,7 +101,6 @@ def add_transaction(service: FinanceService) -> None:
     t = service.add_transaction(**fields)
     print(f"✓ Added {t.description} ({money_display(t.amount)}), ID: {t.id}")
 
-
 def select_transaction(service: FinanceService) -> str:
     """Show recent entries to make choosing the stable ID straightforward."""
     recent = service.list_transactions()[:12]
@@ -118,7 +108,6 @@ def select_transaction(service: FinanceService) -> str:
     for t in recent:
         print(f"    {t.id}  {t.date}  {t.description[:28]:28}  {money_display(t.amount)}")
     return ask("Transaction ID")
-
 
 def edit_transaction(service: FinanceService) -> None:
     transaction_id = select_transaction(service)
