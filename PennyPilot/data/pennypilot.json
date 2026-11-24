@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "transactions": [],
+  "budgets": [
+    {
+      "month": "2026-11",
+      "category": "Groceries",
+      "amount": "100.00"
+    }
+  ]
+}

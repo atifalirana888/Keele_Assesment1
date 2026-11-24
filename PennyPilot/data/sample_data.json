@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "transactions": [
+    {
+      "id": "demo000000000001",
+      "date": "2026-11-19",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Weekly supermarket",
+      "amount": "67.48",
+      "note": "Fresh produce and pantry staples"
+    },
+    {
+      "id": "demo000000000002",
+      "date": "2026-11-19",
+      "kind": "expense",
+      "category": "Food & Drink",
+      "description": "Coffee with Maya",
+      "amount": "9.20",
+      "note": ""
+    },
+    {
+      "id": "demo000000000003",
+      "date": "2026-11-18",
+      "kind": "expense",
+      "category": "Transport",
+      "description": "Rail pass",
+      "amount": "74.00",
+      "note": "Monthly commute top-up"
+    },
+    {
+      "id": "demo000000000004",
+      "date": "2026-11-17",
+      "kind": "expense",
+      "category": "Shopping",
+      "description": "Winter jacket",
+      "amount": "98.00",
+      "note": "Seasonal purchase"
+    },
+    {
+      "id": "demo000000000005",
+      "date": "2026-11-16",
+      "kind": "expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": "26.00",
+      "note": "Weekend film"
+    },
+    {
+      "id": "demo000000000006",
+      "date": "2026-11-15",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Farmers market",
+      "amount": "43.65",
+      "note": ""
+    },
+    {
+      "id": "demo000000000007",
+      "date": "2026-11-14",
+      "kind": "expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": "17.30",
+      "note": ""
+    },
+    {
+      "id": "demo000000000008",
+      "date": "2026-11-13",
+      "kind": "income",
+      "category": "Freelance",
+      "description": "Website project",
+      "amount": "420.00",
+      "note": "Final instalment"
+    },
+    {
+      "id": "demo000000000009",
+      "date": "2026-11-13",
+      "kind": "expense",
+      "category": "Food & Drink",
+      "description": "Team lunch",
+      "amount": "23.80",
+      "note": ""
+    },
+    {
+      "id": "demo000000000010",
+      "date": "2026-11-12",
+      "kind": "expense",
+      "category": "Shopping",
+      "description": "Bookshop",
+      "amount": "34.99",
+      "note": ""
+    },
+    {
+      "id": "demo000000000011",
+      "date": "2026-11-11",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Supermarket",
+      "amount": "83.40",
+      "note": ""
+    },
+    {
+      "id": "demo000000000012",
+      "date": "2026-11-10",
+      "kind": "expense",
+      "category": "Bills",
+      "description": "Broadband",
+      "amount": "32.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000013",
+      "date": "2026-11-09",
+      "kind": "expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": "48.60",
+      "note": ""
+    },
+    {
+      "id": "demo000000000014",
+      "date": "2026-11-08",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Weekly groceries",
+      "amount": "93.25",
+      "note": ""
+    },
+    {
+      "id": "demo000000000015",
+      "date": "2026-11-07",
+      "kind": "expense",
+      "category": "Entertainment",
+      "description": "Streaming subscription",
+      "amount": "12.99",
+      "note": ""
+    },
+    {
+      "id": "demo000000000016",
+      "date": "2026-11-06",
+      "kind": "expense",
+      "category": "Food & Drink",
+      "description": "Friday takeaway",
+      "amount": "31.50",
+      "note": ""
+    },
+    {
+      "id": "demo000000000017",
+      "date": "2026-11-05",
+      "kind": "expense",
+      "category": "Bills",
+      "description": "Energy direct debit",
+      "amount": "156.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000018",
+      "date": "2026-11-04",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Corner shop",
+      "amount": "26.75",
+      "note": ""
+    },
+    {
+      "id": "demo000000000019",
+      "date": "2026-11-03",
+      "kind": "expense",
+      "category": "Housing",
+      "description": "Monthly rent",
+      "amount": "975.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000020",
+      "date": "2026-11-02",
+      "kind": "expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": "59.00",
+      "note": "Python fundamentals"
+    },
+    {
+      "id": "demo000000000021",
+      "date": "2026-11-01",
+      "kind": "income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": "3250.00",
+      "note": "November pay"
+    },
+    {
+      "id": "demo000000000022",
+      "date": "2026-11-01",
+      "kind": "expense",
+      "category": "Bills",
+      "description": "Mobile phone",
+      "amount": "29.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000023",
+      "date": "2026-10-29",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Weekly groceries",
+      "amount": "72.65",
+      "note": ""
+    },
+    {
+      "id": "demo000000000024",
+      "date": "2026-10-27",
+      "kind": "expense",
+      "category": "Transport",
+      "description": "Train tickets",
+      "amount": "42.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000025",
+      "date": "2026-10-26",
+      "kind": "expense",
+      "category": "Shopping",
+      "description": "Running shoes",
+      "amount": "85.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000026",
+      "date": "2026-10-24",
+      "kind": "expense",
+      "category": "Food & Drink",
+      "description": "Restaurant dinner",
+      "amount": "47.50",
+      "note": ""
+    },
+    {
+      "id": "demo000000000027",
+      "date": "2026-10-22",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Supermarket",
+      "amount": "96.75",
+      "note": ""
+    },
+    {
+      "id": "demo000000000028",
+      "date": "2026-10-18",
+      "kind": "expense",
+      "category": "Entertainment",
+      "description": "Concert tickets",
+      "amount": "55.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000029",
+      "date": "2026-10-15",
+      "kind": "expense",
+      "category": "Bills",
+      "description": "Electricity",
+      "amount": "149.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000030",
+      "date": "2026-10-12",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Fresh food",
+      "amount": "59.99",
+      "note": ""
+    },
+    {
+      "id": "demo000000000031",
+      "date": "2026-10-10",
+      "kind": "income",
+      "category": "Freelance",
+      "description": "Logo design",
+      "amount": "230.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000032",
+      "date": "2026-10-07",
+      "kind": "expense",
+      "category": "Transport",
+      "description": "Bus pass",
+      "amount": "64.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000033",
+      "date": "2026-10-03",
+      "kind": "expense",
+      "category": "Housing",
+      "description": "Monthly rent",
+      "amount": "975.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000034",
+      "date": "2026-10-01",
+      "kind": "income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": "3250.00",
+      "note": "October pay"
+    },
+    {
+      "id": "demo000000000035",
+      "date": "2026-09-20",
+      "kind": "expense",
+      "category": "Groceries",
+      "description": "Groceries",
+      "amount": "88.20",
+      "note": ""
+    },
+    {
+      "id": "demo000000000036",
+      "date": "2026-09-14",
+      "kind": "expense",
+      "category": "Health",
+      "description": "Dental appointment",
+      "amount": "72.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000037",
+      "date": "2026-09-02",
+      "kind": "expense",
+      "category": "Housing",
+      "description": "Monthly rent",
+      "amount": "975.00",
+      "note": ""
+    },
+    {
+      "id": "demo000000000038",
+      "date": "2026-09-01",
+      "kind": "income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": "3250.00",
+      "note": "September pay"
+    }
+  ],
+  "budgets": [
+    {
+      "month": "2026-11",
+      "category": "Groceries",
+      "amount": "290.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Food & Drink",
+      "amount": "120.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Shopping",
+      "amount": "160.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Transport",
+      "amount": "150.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Entertainment",
+      "amount": "75.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Bills",
+      "amount": "250.00"
+    },
+    {
+      "month": "2026-11",
+      "category": "Housing",
+      "amount": "1000.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Groceries",
+      "amount": "280.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Food & Drink",
+      "amount": "140.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Shopping",
+      "amount": "160.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Transport",
+      "amount": "140.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Entertainment",
+      "amount": "100.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Bills",
+      "amount": "250.00"
+    },
+    {
+      "month": "2026-10",
+      "category": "Housing",
+      "amount": "1000.00"
+    },
+    {
+      "month": "2026-09",
+      "category": "Groceries",
+      "amount": "300.00"
+    },
+    {
+      "month": "2026-09",
+      "category": "Housing",
+      "amount": "1000.00"
+    },
+    {
+      "month": "2026-09",
+      "category": "Health",
+      "amount": "120.00"
+    }
+  ]
+}
